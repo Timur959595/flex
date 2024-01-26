@@ -1,0 +1,44 @@
+body{
+  background-color: blueviolet;
+}
+
+
+#numbers{
+    display: flex;
+    margin: 15px;
+    
+}
+
+#buttons{
+  display: inline;
+  justify-content: space-between;
+  margin:  10px;
+}
+
+.counts{
+  display: flex;
+
+ 
+}
+
+@media  (max-width: 768px) {
+ .body {
+  max-width: 90%;
+ }
+ .counts{
+  display: block;
+
+ 
+}
+#buttons{
+  display: flex;
+  justify-content: start;
+}
+}
+
+@media (max-width: 1024px) {
+  .body{
+    max-width: 90%;
+  }
+}
+

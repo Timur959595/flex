@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тимофей</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+<form action="#"></form>
+<h2 id="numbers">Калькулятор</h2>
+<div class="counts">
+    <label id="numbers">
+        1 Число:
+        <input type="number" name="x">
+    </label>
+
+    <label id="numbers">
+        2 Число:
+        <input type="number" name="y">
+    </label>
+</div>
+<div id="buttons">
+    Сложение 
+    <input type="button" value="+" onclick="plus()">
+</div>
+<div id="buttons">
+    Вычитание
+    <input type="button" value="-" onclick="minus()">
+</div>
+<div id="buttons">
+    Умножение
+    <input type="button" value="*" onclick="multiply()">
+</div>
+<div id="buttons">
+    Деление
+    <input type="button" value="/" onclick="divide()">
+</div>
+<div id="buttons">
+    Возведение в степень 
+    <input type="button" value="^" onclick="degree()">
+</div>
+<div>
+    <label id="numbers">
+    Ответ:
+    <input type="number" name="result" readonly>
+    </label>
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
